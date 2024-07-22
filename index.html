@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/79ffe5abdb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+             
+                <img src="logo.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                   
+                </ul>
+                
+            </nav>
+
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Shalini</span><br>Kushwaha From <br>India</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div id="about-col-1">
+                    <img src="user.jpeg">
+                </div>
+                <div id="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am a dedicated Full Stack Developer with expertise in front-end technologies like HTML, CSS, and React, and back-end systems using Node.js and Python/Django. With a strong foundation in database management and cloud platforms, I create scalable and efficient web applications. My passion for problem-solving, continuous learning, and effective collaboration drives me to deliver high-quality solutions. I am always eager to embrace new challenges and contribute to innovative projects.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br>HTML, CSS, Javascript, Tailwind CSS, Git & Github, React.js<br>SaaS, Testing, Typescript, Yarn</li>
+                            <li><span>Backend Development</span><br>Node.js, Express.js</li>
+                            <li><span>Database & Language</span><br>Mongo.DB, MySQL, C++ , Data Structure and Algorithm</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May 2023-Nov 2023</span><br>Academic Counselor at Arena Animation</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>Bachelor of Engineering in Computer Science :CGPA:7.8</li>
+                            <li><span>2021</span><br>XII Math Science :CGPA:9.3</li>
+                            <li><span>2019</span><br>X :CGPA:9.4</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------services -->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+<h2>Frontend Design</h2>
+<p>Front-end design is all about creating visually appealing and intuitive user interfaces. It combines aesthetic principles with user experience (UX) strategies to ensure seamless interaction. Mastery in HTML, CSS, and JavaScript, along with tools like React or Angular, brings designs to life.</p>
+<a href="#">Learn more</a>
+
+
+      </div>
+
+      <div>
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>Backend Design</h2>
+        <p>Back-end design focuses on building the server-side logic, databases, and APIs that power web applications. It ensures data integrity, security, and efficient processing using technologies like Node.js, Python/Django, and SQL/NoSQL databases. Effective back-end design guarantees a seamless and responsive user experience by managing the core functionalities behind the scenes.
+        </p>
+        <a href="#">Learn more</a>
+        
+        
+              </div>
+
+              <div>
+                <i class="fa fa-globe" aria-hidden="true"></i>
+
+                <h2>Website Design</h2>
+                <p>I have a proven track record of creating exceptional websites that are both visually appealing and highly functional. With expertise in front-end and back-end technologies, I build user-friendly interfaces and robust server-side architectures. My attention to detail and commitment to quality ensure that every website I develop meets the highest standards of performance and design.
+
+                </p>
+                <a href="#">Learn more</a>
+                
+                
+                      </div>
+    </div>
+
+  </div>
+
+
+
+</div>
+<!-- --------portfolio -->
+ <div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="work-1.png">
+<div class="layer">
+  <h3>food delivery Website</h3>
+  <p> Developed a full stack food ordering app with React, MongoDB, Express, Node.js, and Stripe, including a frontend website, admin panel, and backend server.
+    Implemented user authentication, shopping cart functionality, online payment integration, and order status updates.</p>
+  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+  </div>
+</div>
+      <div class="work">
+        <img src="work-2.png">
+   <div class="layer">
+        <h3>file sharing App</h3>
+        <p> Build APIs for a file-sharing app using Node.js, Express.js, and MongoDB, including file uploads with Multer and email sending with Nodemailer.
+          Deploy the project on Heroku and schedule a script to delete files older than 24 hours.
+          Cover key topics such as file upload/download APIs, Multer integration, email sending, Heroku deployment, and server cron jobs. Download it from play store.</p>
+        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+  </div>
+      <div class="work">
+        <img src="work-3.png">
+        <div class="layer">
+          <h3>Weather App</h3>
+          <p> Developed a dynamic weather application using HTML, CSS, and JavaScript, integrating OpenWeatherMap API to fetch real-time weather data.
+            Implemented features to display temperature, weather conditions, humidity, and wind speed based on city input on the web app. Download it from play store.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+      </div>
+
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+ </div>
+<!-- -------contact--------- -->
+ <div class="contact">
+<div class="container">
+  <div class="row">
+    <div class="contact-left">
+      <h1 class="sub-title">Contact Me</h1>
+      <p> <i class="fa-solid fa-paper-plane"></i>shalinikuswaha121212@gmail.com</p>
+      <p><i class="fa-solid fa-phone"></i>9302479890</p>
+
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=61554200064043"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://x.com/ShaliniKus78039"><i class="fa-brands fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/shalinikushwaha964/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/shalinikushwaha123/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <a href="mycv.jpg"class="btn btn2">Download CV</a>
+    </div>
+    <div class="contact-right">
+  <form name="submit-to-google-sheet">
+    <input type="text" name= "Name"placeholder="Your Name"required>
+    <input type="email" name="Name"placeholder="Your Email"required>
+    <input type="Message" rows="6"placeholder="Your Message"></textarea>
+    <button type="Submit" class="btn btn2">Submit</button>
+
+  </form>
+  <span id="msg"></span>
+</div>
+  </div>
+</div>
+<div class="copyright">
+  <p> Copyright © Shalini.Made with<i class="fa-solid fa-heart"></i> By me</p>
+  
+</div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyrQbZHEOoYBdPfIJNSwh6zJLGbSZBhFe_oqmYcCefeC2KrARxxvTDoXmxUQ2DBLmc/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg=document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },1000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+ 
+</body>
+</html>
